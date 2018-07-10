@@ -1,0 +1,55 @@
+import request from '@/utils/request'
+
+/*-------------------------------------------首页相关查询------------------------------------------------*/ 
+export function productCalendarQuery(query) {//产品查询
+  return request({
+    url: '/osp-resourceManager/esb/getProductCalendarQuantity',
+    method: 'post',
+    data: query,
+  })
+}
+export function getresourcetypenumlist(query) {//知识库
+    return request({
+      url: '/osp-resourceManager/resmanager/getresourcetypenumlist',
+      method: 'post',
+      data: query,
+    })
+  }
+  export function getasharemajoreventlist(query) {//事件
+    return request({
+      url: '/ctc-financeManager/quotedcomview/getasharemajoreventlist',
+      method: 'post',
+      data: query,
+    })
+  }
+
+  // 通过机构查询定向产品客户分息
+export function getSOrgAmbDepDirectList(data) {
+  return request({
+      url: '/ctc-targetManager/sorgambdepdirect/getSOrgAmbDepDirectList',
+      method: 'post',
+      data:data,
+  })
+}
+
+ // 通过机构查询定向产品客户分布数据图
+ export function getSOrgQtyIndiByIndiNos(datas) {
+  return request({
+      url: '/ctc-targetManager/custIndicator/getSOrgQtyIndiByIndiNos',
+      method: 'post',
+      data:datas,
+  })
+}
+
+
+    // 通过机构号查询投行新增立项统计信息
+    export function getInvestBankSProjSumList(data) {
+      return request({
+          url: '/ctc-targetManager/investbanksprojsum/getInvestBankSProjSumList',
+          method: 'post',
+          data:data,
+      })
+    }
+
+
+

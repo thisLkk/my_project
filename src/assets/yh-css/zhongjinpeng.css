@@ -1,0 +1,14 @@
+
+.yh_CollaborationQuery #item_input .el-form-item__content{
+    margin-left: 50px !important;
+}
+
+.yh_CollaborationQuery #item_lable .el-form-item__label{
+    margin-left: -50px !important;
+    width:130px;
+}
+
+
+.yh_CollaborationQuery #item_lable .el-form-item__content{
+    margin-left: 80px !important;
+}

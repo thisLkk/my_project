@@ -1,0 +1,98 @@
+.Section-Boxs span{
+    float: left;
+    line-height: 28px;
+    background: #EAEBEF;
+    width: 33.333%;
+}
+.AggProduct span{
+    float: left;
+    line-height: 28px;
+    background: #EAEBEF;
+    
+}    
+.AggleSmallbox-td{
+    width: 40%;
+}
+.AggleSmallbox-tds{
+    width: 20%;
+}
+    .ProductBox-tr{
+        border:1px solid black;
+        
+    }
+    .ProductBox-td{
+        border: 1px solid black;
+        line-height: 25px;
+        width: 33.333%;
+    }
+    .el-table__body-wrapper{
+        overflow-x: hidden;
+    }
+
+    .AggProduct{
+        width: 100%;
+    }
+    .AggleSmallbox-tr{
+        width: 50%;
+    }
+    .newslist-showmsg .el-tabs__nav .el-tabs__item{
+        margin-left: 2px;
+    }
+    .el-tabs__active-bar{
+        margin-left: 14px;
+    }
+
+    .index_newx span {
+            width: 370px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow:ellipsis;
+        }
+    .index_two{
+        width: 258px;
+    line-height: 12px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    }
+    .x_block{
+        margin-left:30px;
+    }
+    /* .index_two span{
+        width: 300px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow:ellipsis;
+    } */
+    
+    .x_content p{
+        text-align: left;
+        text-indent:30px;
+        padding-left: 40px;
+        padding-right: 40px;
+  }
+ .k_active{
+     padding: 0px 20px 20px 20px;
+ }
+ .t_information{
+     padding-right: 20px;
+ }
+ /* .el-table__body .f_onetd span{
+        width: 280px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow:ellipsis;
+ } */
+ .f_onetd{
+     position: relative;
+ }
+ .xq_right{
+     position: absolute;
+     top: 0;
+     right: 20%;
+ }
+ .fm_close{
+     padding-top: 50px;
+     display: block;
+ }

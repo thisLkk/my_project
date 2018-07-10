@@ -1,0 +1,297 @@
+/*------------------登录页--------------------*/
+
+.yh-login #verificationcode {
+    width: 200px !important;
+    float: left;
+}
+
+.yh-login #jurisdictionselect {
+    width: 400px;
+}
+
+/*----------------------客户管理---------------------*/
+
+/*正式客户查询页面*/
+
+.yh-formalcustomerquery-querycriteria .el-form-item__label {
+    font-family: '微软雅黑';
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.yh-formalcustomerquery-querycriterias .el-form-item__label {
+    font-family: '微软雅黑';
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.yh-formalcustomerquery-querycriteria #yh-search-button {
+    margin: 20px 0px !important;
+    width: 30px;
+    height: 28px;
+    line-height: 8px;
+    background-color: #ffffff;
+}
+
+.yh-formalcustomerquery-querycriterias #yh-search-button {
+    margin: 20px 0px !important;
+    width: 30px;
+    height: 28px;
+    line-height: 8px;
+    background-color: #ffffff;
+}
+
+/*dialog的样式*/
+
+.yh-formalcustomerquery-querycriteria .el-dialog__body {
+    padding: 15px;
+}
+
+.yh-formalcustomerquery-querycriterias .el-dialog__body {
+    padding: 15px;
+}
+
+.yh-personchoosedialog .el-form-item__label {
+    width: 80px !important;
+    font-family: '微软雅黑';
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.yh-content .el-date-editor {
+    width: 174px;
+}
+
+.yh-left .el-input__inner {
+    width: 230px;
+}
+
+/*正式客户管理页面*/
+
+.yh-formalcustomermanage-querycriteria .el-form-item__label {
+    font-family: '微软雅黑';
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.yh-formalcustomermanage-querycriteria #yh-manageinput {
+    /* width: 490px; */
+    height: 28px;
+    margin: 20px 0px;
+}
+
+/* .yh-formalcustomermanage-querycriteria .yh-manage-fastsearch label {
+    margin-top: 19px;
+} */
+
+/* .yh-formalcustomermanage-querycriteria .yh-manage-fastsearch button {
+    height: 30px;
+    line-height: 8px;
+    margin-top: 20px;
+} */
+
+/* dialog的样式*/
+
+/* .yh-addcustomer .el-dialog__body {
+    padding-left: 10px;
+    height: 500px;
+    overflow-y: auto;
+} */
+
+.yh-addcustomer .el-form-item__label {
+    font-family: '微软雅黑';
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.yh-addcustomer .el-date-editor {
+    width: 190px;
+}
+
+.yh-bigdiv .el-form-item__label {
+    width: 120px !important;
+}
+
+.yh-bigdiv .el-form-item__content {
+    margin-left: 120px !important;
+}
+
+.yh-biggdiv .el-form-item__label {
+    width: 140px !important;
+}
+
+.yh-biggdiv .el-form-item__content {
+    margin-left: 140px !important;
+    width: 220px;
+    height: 35px;
+}
+
+.yh-content .el-dialog__body {
+    padding-left: 10px;
+}
+
+.yh-content .el-form-item__label {
+    width: 80px !important;
+    font-family: '微软雅黑';
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.yh-addservicerecords .el-form-item__label {
+    width: 110px !important;
+    font-family: '微软雅黑';
+    font-size: 12px;
+    font-weight: normal;
+    display: inline-block;
+}
+
+.yh-addservicerecords .el-form-item__content {
+    width: 250px;
+    margin-left: 110px !important;
+}
+
+.yh-addservicerecords .el-date-editor {
+    width: 250px;
+}
+
+.yh-addservicerecords .el-textarea__inner {
+    width: 630px;
+    height: 80px;
+}
+
+.yh-biglabel .el-form-item__label {
+    width: 135px !important;
+    text-align: left;
+}
+
+.el-date-editor .el-input {
+    width: 200px;
+}
+
+.yh-addcustomergroup .el-date-editor {
+    width: 205px;
+}
+
+/*公开客户列表*/
+
+.yh-lcqc .el-form-item__label {
+    font-family: '微软雅黑';
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.yh-sqc .el-form-item__label {
+    font-family: '微软雅黑';
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.yh-labels .el-form-item__label {
+    font-family: '微软雅黑';
+    font-size: 12px;
+    font-weight: normal;
+    width: 120px !important;
+}
+
+.yh-customerlist-fastsearch button {
+    margin-left: 10px;
+}
+
+.yh-customerlistdiv div div label {
+    width: 160px !important;
+}
+
+#yh-officeaddressinput {
+    width: 100%;
+    height: 28px;
+}
+
+.yh-register-div {
+    width: 200px;
+    height: 35px;
+}
+
+/*投行项目汇总*/
+
+.yh-InvestmentBankProjectSummary .el-tabs__item {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.yh-InvestmentBankProjectSummary .is-active {
+    background-color: #cc6d30;
+    color: #ffffff;
+}
+
+.el-table .yh-rowclass {
+    text-align: center;
+    height: 35px;
+}
+
+.el-table .yh-headerclass th {
+    background-color: #e6e6e6;
+    margin: 0 auto;
+    height: 35px;
+    text-align: center;
+}
+
+/*上市公司潜客360视图-平铺*/
+
+.yh-submersiblebasicinformation .el-form-item__label {
+    width: 150px !important;
+    font-family: '微软雅黑';
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.yh-submersiblebasicinformation .el-col-8 {
+    height: 50px;
+}
+
+/*-----------------商机管理-----------------------*/
+
+/*--机构业务目标客户 --*/
+
+.yh-externalassetslist .yh-headerclass {
+    height: 35px;
+    font-family: '微软雅黑';
+    font-size: 15px;
+    font-weight: normal;
+}
+.yh-externalassetslist .el-table--medium th{
+  padding: 3px 0;
+}
+.yh-externalassetslist .el-table .cell{
+  box-sizing: border-box;
+  white-space: normal;
+  word-break: break-all;
+  line-height: 42px;
+}
+
+  /*--我名下客户外部资产列表--*/
+
+.yh-institutionalbusinesstargetCustomer .el-form-item__label {
+    font-family: '微软雅黑';
+    font-size: 12px;
+    font-weight: normal;
+    width: 100px !important;
+}
+
+.yh-institutionalbusinesstargetCustomer .el-form-item__content {
+    width: 280px;
+    margin-left: 100px !important;
+}
+
+.yh-institutionalbusinesstargetCustomer .el-form-item {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.yh-querybuttons .el-button {
+    height: 28px;
+    line-height: 8px;
+}
+
+.yh-newnamelist .el-form-item {
+    margin-left: 12px;
+}

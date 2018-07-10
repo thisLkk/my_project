@@ -1,0 +1,254 @@
+
+.yh_inputButtonChooseEmployee,.yh-panoramicViewCorrelationCustRegCust .el-form-item__label{
+    font-size: 12px;
+    color: #999999;
+    font-weight: 100;
+  }
+
+  .yh_InstitutionInRegCustManage,.yh_InstitutionInRegCustQuery  .el-form-item__label{
+    font-size: 12px;
+    color: #999999;
+    font-weight: 100;
+  }
+  .yh-panoramicViewCorrelationCustRegCust .el-table table thead th {
+    background-color: #b3844e;
+    color: #222222;
+    text-align: center;
+  }
+  .yh_PanoramaHeadInformationRegCust .whitecolor label {
+    color: white;
+}
+.yh-panoramicViewCorrelationCustRegCust .el-dialog__body .el-date-editor{
+  width:100%;
+}
+.yh_inputButtonChooseEmployee .el-form-item__label{
+  font-size: 12px;
+  font-weight: 100;
+}
+
+
+.yh_InstitutionInRegCustQuery .yh_RegisteredCustomerList{
+  margin: 0 -5px !important;
+}
+/* 查询条件默认样式，去除字体加粗*/
+.yh-jbxx-content label{
+  font-weight: normal;
+  font-size: 12px;
+  color: #999999;
+}
+.yh_pagination_f {
+  float: right;
+}
+
+.yh-projectFour .el-table thead th{
+  background-color: #f4f4f4;
+  color: #626366;
+}
+/*注册客户 添加分组 日期控件宽度*/
+.yh_InstitutionInRegCustManage .el-date-editor ,.yh_regcustqeury .el-date-editor{
+  width: 100%;
+}
+
+.yh_InstitutionInRegCustManage
+.yh-archives-all
+.yh-archives-all-header
+.yh-archives-all-main
+.yh-check-inp
+.main
+{
+  width:97% !important;
+}
+
+.yh_InstitutionInRegCustManage .el-pagination{
+  white-space:pre-wrap !important;
+}
+
+.yh-activity-table .el-date-editor{
+  width:100%;
+}
+.yh_RegisteredCustomerList .dialogApplyForRegular .yh-jbxx-content{
+  padding-top: 23px;
+}
+/* 注册客户列表 数据样式 */
+.yh_InstitutionInRegCustManage .yh-archives-all-header .yh-archives-all-main .main{
+  width:97%
+}
+/* 注册客户管理 弹出窗口 确定取消按钮样式修正 */
+.yh_RegisteredCustomerList .dialogApplyForRegular .el-dialog__footer  {
+  padding: 10px 40% 50px;
+}
+
+.yh_InstitutionInRegCustManage .yh-archives-all{
+  height: 100%;
+}
+
+/* 列表复选框去掉后面的文字*/
+.yh_InstitutionInRegCustManage .el-checkbox-group .el-checkbox .el-checkbox__label{
+  display: none;
+}
+/* 产品管理————— ele单选组件的样式） L*/
+
+.yh_ProductQuery .el-textarea {
+width: 600px;
+}
+
+.yh_ProductQuery .el-form-item {
+  margin-bottom: 5px;
+}
+
+.yh_ProductQuery .yh-fold-noactive {
+  background-size: 100% 100%;
+  float: left;
+  height: 30px;
+  width: 30px;
+  background: #eeeeee;
+  line-height: 30px;
+  padding-left: 9px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.yh_color_query{
+  background-color: #A76E39;
+  color: white;
+}
+.yh_color_reset{
+  background-color: #AFA8A2;
+  color: white;
+}
+
+
+/* 产品管理———重点产品销售—— */
+.yh_ImportantProductSell .el-button+.el-button {
+  margin-left: 0px;
+}
+.yh_ImportantProductSell .yh-fold-noactive {
+  background-size: 100% 100%;
+  float: left;
+  height: 30px;
+  width: 30px;
+  background: #eeeeee;
+  line-height: 30px;
+  padding-left: 9px;
+  margin-right: 20px;
+}
+
+/* 资源管理————— ele单选组件的样式） L*/
+
+.yh_BusinessAddressBookManagement .BusinessQuery_main .el-input {
+  width: 240px;
+}
+.yh_BusinessAddressBookManagement .el-textarea {
+width: 600px;
+}
+
+
+/* 资源管理——业务通讯录查询——— ele单选组件的样式） L*/
+
+
+.el-table td,
+.el-table th.is-leaf {
+  border: 1px solid #ebeef5;
+  font-size: 12px;
+  font-family:"微软雅黑", 'Arial Narrow', Arial, sans-serif;
+}
+
+.el-table td,
+.el-table th.is-leaf:nth-last-child(1) {
+  border-right: none;
+}
+
+.el-table thead th {
+  background-color: #b3844e;
+  color: #ffffff;
+    /*背景渐变色*/
+    background: -webkit-linear-gradient(#e7883c,#cf9349,#cf8e3e);  
+    background: -o-linear-gradient(#e7883c,#cf9349,#cf8e3e);  
+    background: -moz-linear-gradient(#e7883c,#cf9349,#cf8e3e);  
+    /*background: -mos-linear-gradient(bottom,#f5f7fa,#fafafa);*/  
+
+    background: linear-gradient(#e7883c,#cf9349,#cf8e3e); /*ouxinsu*/
+
+    font-weight: bold;
+    color: #ffffff;
+}
+.el-tag {
+  background:none;
+  padding: 0;
+  font-size: 12px;
+  color: #333333;
+  border-radius: 0;
+  box-sizing: border-box;
+  border: none;
+}
+.yh_BusinessAddressBookManagement .el-textarea {
+width: 600px;
+}
+
+.yh-demand-table .a_width100{
+  width:100px !important;
+}
+
+/* 产品管理 弹出详情窗口 tabel 样式 */
+
+.yh-tabel-content{
+  border: 1px solid #E8E8E8;
+}
+.yh-tabel-content div.el-row{
+  border-bottom : 1px solid #E8E8E8;
+}
+
+.yh-tabel-content label{
+  background-color: #F4F4F4;
+  font-weight: 100;
+  border-right: 1px solid #E8E8E8;
+
+}
+.yh-tabel-content .el-form-item__content{
+  padding-left: 10px;
+}
+
+.yh_ProductQuery .yh-tabel-content .el-form-item {
+  margin-bottom: 0px;
+}
+.yh_ImportantProductSell .yh-tabel-content .el-form-item {
+  margin-bottom: 0px;
+}
+
+.yh_KnowledgeTable .el-date-editor{
+  width: 100%;
+}
+
+ 
+/* -----------------------------------首页样式--------------------------------------*/
+
+/*首页表格表头颜色*/
+
+.indextableshow .el-table thead th {
+  background-color: #EAEBEF;
+  color: #595D60;
+  color:#ffffff;
+  font-weight: bold;
+}
+
+/*首页大事记列表 表格样式*/
+.indextableshow .el-table {
+  border: 0px !important;
+  font-size: 10px;
+}
+.newslist-showmsg .el-table td{
+  border: 0px !important;
+  font-size: 12px;
+  font-family:"微软雅黑", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.index-show-background-style {
+  background-color: #FFFFFF;
+}
+
+
+/*大事记字体和对其方式*/
+.yh-font-dsj {
+  font-size: 14px;
+  text-align: center;
+}

@@ -1,0 +1,233 @@
+/* 360全景视图下的纯文字表格的样式 不带border-radius    lu*/
+
+.yh-general-table .el-table table thead th {
+  /*background-color: #724a18;*/
+  color: #222222;
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+
+/* 360全景视图下的纯文字表格展示的样式 携带border-radius lu*/
+
+.yh-project-table .el-table table thead th {
+  /*background-color: #724a18;*/
+  color: #222222;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+/* <!-- 360传统页面 - 投资银行总部 - 基本信息携带input的最新版通用组件L --> */
+
+.yh_EditableInput .el-input--medium .el-input__inner {
+  height: 28px;
+  line-height:28px;
+  font-size:12px;
+  font-family: '微软雅黑', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* <!-- 360传统页面 - 基本信息展示通用组件（带border-radius效果） input的高度L  --> */
+
+.yh-project_ .el-input--medium .el-input__inner {
+  height: 28px;
+  line-height:28px;
+  font-size:12px;
+  font-family: '微软雅黑', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+/* 360视图-全景视图-业务信息栏目-  (投资银行组件) L*/
+
+.yh_InvestmentBankHeadquarters {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.yh_InvestmentBankHeadquarters .allshow .el-tabs__nav-scroll {
+  padding-left: 0;
+  background: none;
+}
+
+.yh_InvestmentBankHeadquarters .allshow .el-tabs--border-card>.el-tabs__header .el-tabs__item {
+  border: none;
+}
+
+.yh_InvestmentBankHeadquarters .allshow .el-tabs__item {
+  border-top: none;
+}
+
+.yh_InvestmentBankHeadquarters .el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active {
+  color: #ffffff;
+}
+
+.yh_InvestmentBankHeadquarters .el-tabs--border-card>.el-tabs__header .el-tabs__item:hover {
+  color: #ffffff;
+  background: #af6e20;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+/* 360视图-全景视图-业务信息栏目-  (研究院组件) L*/
+
+.yh_ResearchInstitute {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.yh_ResearchInstitute .allshow .el-tabs__nav-scroll {
+  padding-left: 0;
+  background: none;
+}
+
+.yh_ResearchInstitute .allshow .el-tabs--border-card>.el-tabs__header .el-tabs__item {
+  border: none;
+}
+
+.yh_ResearchInstitute .allshow .el-tabs__item {
+  border-top: none;
+}
+
+.yh_ResearchInstitute .el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active {
+  color: #ffffff;
+}
+
+.yh_ResearchInstitute .el-tabs--border-card>.el-tabs__header .el-tabs__item:hover {
+  color: #ffffff;
+  background: #af6e20;
+}
+
+.el-date-editor--daterange.el-input,
+.el-date-editor--daterange.el-input__inner,
+.el-date-editor--timerange.el-input,
+.el-date-editor--timerange.el-input__inner {
+  width: 300px;
+}
+
+/* ----------------------------------------------------协同管理-------------------------------------------------------------------------- */
+
+/* 协同管理 */
+
+/* 协同弹窗input框与下拉框 */
+
+.yh_MySynergyBusinessOpportunity .yh_BusinessPublicNewForm .el-input--suffix .el-input__inner {
+  padding-right: 0;
+  margin-right: 90px;
+}
+
+.yh_MySynergyBusinessOpportunity .yh_CollaborationQuery .el-input--suffix .el-input__inner {
+  padding-right: 0;
+}
+
+.yh_MySynergyBusinessOpportunity .el-date-editor.el-input,
+.yh_MySynergyBusinessOpportunity .el-date-editor.el-input__inner {
+  width: 217px;
+}
+
+.yh_MySynergyBusinessOpportunity .el-table__body-wrapper .el-table--mini td,
+.yh_MySynergyBusinessOpportunity .el-table__body-wrapper .el-table--mini th {
+  padding: 0;
+}
+
+/* 这个是无限新增form表单里的删除按钮 */
+
+#removeBtn {
+  background: none;
+  border: none;
+  float: right;
+}
+
+.el-radio__input.is-checked .el-radio__inner {
+  border-color: #cb6c2f;
+  background: #cb6c2f;
+}
+
+.el-radio__input.is-checked+.el-radio__label {
+  color: #b3844e;
+}
+
+.el-radio__inner:hover {
+  border-color: #cb6c2f;
+}
+
+.el-checkbox__input.is-checked .el-checkbox__inner,
+.el-checkbox__input.is-indeterminate .el-checkbox__inner {
+  background-color: #cb6c2f;
+  border-color: #cb6c2f;
+}
+
+.el-checkbox__inner:hover {
+  border-color: #cb6c2f;
+}
+
+.el-checkbox__input.is-focus .el-checkbox__inner {
+  border-color: #cb6c2f;
+}
+
+.el-cascader-menu__item.is-active {
+  color: #b3844e;
+}
+
+.el-textarea__inner:focus {
+  border-color: #cb6c2f;
+}
+
+.table-header .el-upload-list__item-name {
+  color: #606266;
+  display: block;
+  margin-right: 40px;
+  overflow: hidden;
+  padding-left: 4px;
+  text-overflow: ellipsis;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+  white-space: nowrap;
+  float: none;
+  width: 100%;
+  height: 100%;
+  background: none;
+  text-align: left;
+  border-radius: 0;
+  margin-right: 0;
+  font-size: 14px;
+}
+/* ---------------------------------------------------通用的搜索客户信息弹出框-------------------------------------------------------- */
+.yh_AnInstitutionOrPerson .el-table--medium td,
+.yh_AnInstitutionOrPerson .el-table--medium th {
+  padding: 5px 0;
+}
+/* 
+  活动的上传附件
+*/
+.yh-activity-table .addBox .el-upload-list__item-status-label {
+  position: absolute;
+  right: -17px;
+  top: 10px;
+  line-height: inherit;
+}
+.yh-activity-table .addBox .el-upload-list__item .el-icon-close{
+  top:15px;
+  right: -18px;
+}
+.yh-activity-table .addBox .el-upload-list__item:hover{
+  background-color: #ffffff;
+}
+.yh-activity-table .table-header .addBox  a:hover {
+  color: #409EFF;
+  display: block;
+  margin-right: 40px;
+  overflow: hidden;
+  padding-left: 4px;
+  text-overflow: ellipsis;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+  white-space: nowrap;
+  float: none;
+  width: 100%;
+  height: 100%;
+  background:  #ffffff;
+  text-align: left;
+  border-radius: 0;
+  margin-right: 0;
+  font-size: 14px;
+  border: none;
+}

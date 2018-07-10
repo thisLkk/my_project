@@ -1,0 +1,681 @@
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+}
+
+input {
+    background: none;
+    outline: none;
+    border: 0px;
+    text-indent: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    line-height: 1;
+    font-family: "微软雅黑", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif !important;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+/* remember to define focus styles! */
+
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+
+ins {
+    text-decoration: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* icon 图标专区 */
+
+.fa {
+    position: relative;
+}
+
+.del_icon {
+    color: red;
+}
+
+.edit_icon {
+    color: green;
+}
+
+.send_icon {
+    color: dodgerblue;
+}
+
+.del_icon:hover span,
+.edit_icon:hover span,
+.send_icon:hover span {
+    opacity: 1;
+}
+
+.del_icon span,
+.edit_icon span,
+.send_icon span {
+    transition: all .5s ease-in;
+    position: absolute;
+    right: -28px;
+    top: -3px;
+    font-size: 12px;
+    color: red;
+    opacity: 0;
+}
+
+.edit_icon span {
+    color: green;
+}
+
+.send_icon span {
+    color: dodgerblue;
+}
+
+/*------------------------------------------------------------------*/
+
+/*修改饿了么的table的横向滚动条*/
+
+.el-table__body-wrapper .is-scroll-left {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/*------------------------------------------------------------------*/
+
+/* didialog弹窗公用*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: "微软雅黑";
+}
+
+.el-dialog__header {
+    height: 50px;
+    background-color: #ce8f3d;
+    padding: 10px 0px 10px 25px;
+    color: #ffffff;
+    margin-bottom: 23px;
+}
+
+.el-dialog__header span {
+    float: left;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: '微软雅黑';
+}
+
+.el-dialog__headerbtn .el-dialog__close {
+    color: #ffffff;
+}
+
+.el-dialog__body {
+    padding: 0;
+}
+
+.el-dialog__footer {
+    text-align: center;
+}
+
+.el-button--primary:focus,
+.el-button--primary:hover,
+.el-button--default:focus,
+.el-button--default:hover {
+    color: #b3844e;
+    border-color: #b3844e;
+    background-color: #ffffff;
+}
+
+.el-button--default {
+    background-color: #dddddd;
+}
+
+.el-button--primary {
+    background-color: #b3844e;
+    border-color: #b3844e;
+}
+
+/*-----------------------------------------------------------*/
+
+/* 所用表格列中button直接的间距 */
+
+.el-button+.el-button {
+    margin-left: 10px;
+}
+
+/* yh-tabel 表格的头部分栏信息 */
+
+.table-header {
+    height: 24px;
+    line-height: 24px;
+    margin: 10px 0;
+}
+
+.table-header h3 {
+    float: left;
+    width: 200px;
+    line-height: 24px;
+    font-size: 16px;
+    color: #a7703d;
+    font-weight: bold;
+    border-left: 6px solid #b3844e;
+    margin-left: 10px;
+    text-indent: 1em;
+}
+
+.table-header a {
+    float: right;
+    width: 70px;
+    height: 24px;
+    background: #b3844e;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 45px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+/* 若有第2个a,相距5间隔 */
+
+.table-header a:nth-of-type(2) {
+    margin-right: 5px;
+}
+
+.table-header a .el-button {
+    width: 54px;
+    height: 24px;
+    padding: 0;
+    background: #b3844e;
+    border: 0;
+    color: #ffffff;
+}
+
+/* 用来包裹列表操作按钮的盒子 */
+
+.table-show {
+    min-height: 200px;
+    padding: 0 20px;
+    padding-right: 200px;
+    box-sizing: border-box;
+}
+
+/* 此处是diolog弹出窗字段内容的总盒子 */
+
+.activity_dialog {
+    margin: 20px;
+}
+
+.activity_dialog_list {
+    float: left;
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.activity_dialog .activity_dialog_list span {
+    text-align: right;
+    width: 36%;
+    padding-right: 10px;
+    line-height: 36px;
+}
+
+.activity_dialog .activity_dialog_list span .el-input__suffix {
+    width: 20px;
+}
+
+.activity_dialog .activity_dialog_list .content {
+    float: left;
+    width: 56%;
+    margin: 0;
+    padding: 0;
+    background: #eeeeee;
+    border-radius: 2px;
+    line-height: 30px;
+    color: #000;
+    text-align: left;
+}
+
+.activity_dialog .activity_dialog_list .content .el-input__prefix {
+    width: 20px;
+}
+
+/* 每个字段后的span回显的盒子 */
+
+.content_span {
+    padding-left: 15px;
+}
+
+/* 下拉框宽度100% */
+
+.el-select {
+    width: 100%;
+}
+
+/* yh-tabel  表格的头部分栏信息结束 */
+
+/* yh-tabel  传统页面 服务组件table 服务组件暂时用的自己写的table yh-demand-table*/
+
+.yh-ser-team-table .ser-team-table table thead th,
+.yh-contact-table .el-table table thead th,
+.yh-address-table .el-table table thead th,
+.yh-business-table .el-table table thead th,
+.yh-business-table .el-table table thead th,
+.yh-demand-table .el-table table thead th {
+    background-color: #b3844e;
+    color: #ffffff;
+}
+
+/*---------------------------------------------------------------------------*/
+
+/* 360传统视图页面 活动信息table带有操作选项,联系信息table 带有操作选项 ,地址列表,商机列表*/
+
+.yh-activity-table .el-table table thead th {
+    background-color: #b3844e;
+    color: #ffffff;
+}
+
+.yh-activity-table .el-table table thead th .cell,
+.yh-contact-table .el-table table thead th .cell,
+.yh-address-table .el-table table thead th .cell,
+.yh-business-table .el-table table thead th .cell,
+.yh-demand-table .el-table table thead th .cell {
+    font-weight: bold;
+}
+
+.yh-activity-table .el-table tr th:nth-last-child(1),
+.yh-contact-table .el-table tr th:nth-last-child(1),
+.yh-address-table .el-table tr th:nth-last-child(1),
+.yh-business-table .el-table tr th:nth-last-child(1),
+.yh-demand-table .el-table tr th:nth-last-child(1) {
+    border-left: 3px solid #ebeef5;
+    box-sizing: border-box;
+}
+
+.yh-activity-table .el-button--text,
+.yh-contact-table .el-button--text,
+.yh-address-table .el-button--text,
+.yh-business-table .el-button--text,
+.yh-demand-table .el-button--text {
+    background: 0 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 32px;
+    height: 24px;
+    line-height: 5px;
+}
+
+.yh_360_panoramic_view .el-tabs__item:hover {
+    color: #b3844e;
+    background: #ffffff;
+    border-bottom: none;
+    box-sizing: border-box;
+}
+
+.yh_360_panoramic_view .el-tabs__item.is-active {
+    color: #b3844e;
+    background: #ffffff;
+    border: none;
+    box-sizing: border-box;
+}
+
+.yh_360_panoramic_view .el-tabs__item {
+    box-sizing: border-box;
+    border-top: 1px solid #b3844e;
+    color: #ffffff;
+}
+
+.yh_360_panoramic_view .el-tabs__nav-scroll {
+    background: #b3844e;
+    box-sizing: border-box;
+    border: none;
+    padding-left: 100px;
+}
+
+.yh_360_panoramic_view .el-tabs--card>.el-tabs__header {
+    margin: 0;
+}
+
+.yh_360_panoramic_view .el-tabs--card>.el-tabs__header .el-tabs__nav {
+    border: none;
+}
+
+/*-------------------------------------------------------------------------*/
+
+/* 注册用户查询页面 --lable最大宽度*/
+
+.yh_RegCustQeuryMyDepartment .yh_maxLabel label {
+    width: 180px !important;
+}
+
+/* 列头样式 */
+
+.has-gutter tr {
+    background-color: #e9ecee !important;
+}
+
+/* 弹出dialog内容距离头的距离*/
+
+.el-dialog__body {
+    padding-top: 0px;
+}
+
+/*白色*/
+
+.yh_PanoramaHeadInformation .whitecolor label {
+    color: white;
+}
+/* ------------------------------------↓ ele的table自定义组件鼠标悬浮样式----------------------------------------- */
+.el-popover {
+    position: absolute;
+    background: #fff;
+    min-width: 80px;
+    border: 1px solid #ebeef5;
+    padding: 4px;
+    z-index: 2034;
+    color: #606266;
+    line-height: 1.4;
+    text-align: center;
+    word-break: break-all;
+    font-size: 12px;
+    -webkit-box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+  }
+  /* ***************************************************************整体ele改动*********** */
+  /* 2018-5-5  整体改动ele样式 */
+  /* tabs  表头 */
+  .el-tabs--border-card{
+    background: none;
+    border:none;
+    box-shadow: none;
+  }
+  .el-tabs--border-card>.el-tabs__header{
+      border:none;
+      background: #ffffff;
+  }
+  .el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active{
+    background: #af6e20;
+    color:#fff;
+    border: none;
+  }
+  .el-tabs--border-card>.el-tabs__header .el-tabs__item{
+      border: none;
+      margin: 0;
+  }
+  .el-tabs--border-card>.el-tabs__header .el-tabs__item:hover{
+      color: #af6e20;
+  }
+  .el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active:hover{
+      color: #fff;
+  }
+  .el-tabs--border-card>.el-tabs__content{
+      padding: 15px 0;
+  }
+  .el-card__body{
+      padding-top: 0;
+  }
+  .el-form-item{
+      margin-bottom: 10px;
+  }
+  /* ele单选按钮区域 */
+.el-radio-button__orig-radio:checked+.el-radio-button__inner,.el-checkbox-button__orig-radio:checked+.el-checkbox-button__inner {
+    color: #fff;
+    background-color: #cb6c2f;
+    border-color: #cb6c2f;
+    box-shadow: -1px 0 0 0 #cb6c2f;
+    border-radius: 3px;
+  }
+  
+.el-radio-button:first-child .el-radio-button__inner,.el-checkbox-button:first-child .el-checkbox-button__inner {
+    border-left: 0;
+  }
+  
+.el-radio-button--mini .el-radio-button__inner ,.el-checkbox-button--mini .el-checkbox-button__inner{
+    padding: 4px;
+  }
+  
+.el-radio-button__inner:hover , .el-checkbox-button__inner:hover {
+    color: #cb6c2f;
+  }
+  
+.el-radio-button,
+  .el-radio-button__inner ,.el-checkbox-button,
+  .el-checkbox-button__inner {
+    margin-right: 5px;
+  }
+  
+.el-radio-button__inner,.el-checkbox-button__inner {
+    border: none;
+  }
+  .el-checkbox-button.is-checked .el-checkbox-button__inner{
+    color: #fff;
+    background-color: #cb6c2f;
+    border-color: #cb6c2f;
+    box-shadow: -1px 0 0 0 #cb6c2f;
+    border-radius: 3px;
+  }
+/* inpiut区域 */
+.el-form-item--medium .el-form-item__content, .el-form-item--medium .el-form-item__label{
+    line-height: 28px;
+}
+.el-form-item__label{
+    color: #666666;
+}
+/* table区域 */
+.el-table td,
+  .el-table th.is-leaf {
+    border: 1px solid #ebeef5;
+  }
+  
+.el-table td,
+  .el-table th.is-leaf:nth-last-child(1) {
+    border-right: none;
+  }
+  
+.el-table thead th {
+    background-color: #b3844e;
+    color: #ffffff;
+  }
+  /* --------------------------------- */
+  .yh-headerfl{
+      font-size: 14px;
+      text-align: center;
+  }
+  .yh-headerfr{
+      line-height: 40px;
+  }
+  /* 精确模糊button的样式 */
+  #accurate,#vague{
+      background: #fbfbfa;
+      border: 1px solid #e8e8e8;
+      color: #666666;
+      border-radius: 1px;
+      margin-left: 10px;
+  }
+  #accurate:hover,#vague:hover{
+      background: #d96615;
+      color: #fff;
+      border: 1px solid #d96615;
+  }
+  /* 查询重置button的样式 */
+  #el_query{
+      background: #af6e20;
+      border-radius: 1px;
+      color: #ffffff;
+      border-color: #af6e20;
+  }
+  #el_query:hover{
+      border-color: #e38f29;
+    background: #e38f29;
+  }
+  #el_reset{
+    background: #aea8a1;
+    border-radius: 1px;
+    color: #fff;
+    border-color: #aea8a1;
+  }
+  #el_reset:hover{
+    border-color: #c7c1b9;
+    background: #c7c1b9;
+  }
+  /* 分页 */
+  .el-pager li.active,.el-select-dropdown__item.selected{
+    color: #cb6c2f;
+  }
+  .el-pagination button:hover,.el-pager li:hover{
+    color: #cb6c2f;
+  }
+  .el-select .el-input.is-focus .el-input__inner,.el-pagination__sizes .el-input .el-input__inner:hover,.el-input.is-active .el-input__inner, .el-input__inner:focus{
+      border-color: #cb6c2f;
+  }
+  
+  /*  公共上传组件样式*/
+ .activity_dialog .activity_dialog_list .upload-demo span{
+      line-height:0px;
+  } 
+  .activity_dialog .activity_dialog_list .upload-demo a{
+    float: right;
+    width: auto;
+    height: 24px;
+    background: white;
+    color: black;
+    text-align: center;
+    border-radius: 45px;
+    margin-right: 25px;
+    font-size: 14px;
+  }
+.activity_dialog .activity_dialog_list .upload-demo .el-upload-list__item{
+    float:left;
+    width:auto;
+}
+/*---------------------------------------------------------------------*/
+/*tabs*/
+.el-tabs__nav{
+    height: 30px;
+    
+}
+.el-tabs__item{
+    height: 30px;
+    line-height: 30px;
+}
